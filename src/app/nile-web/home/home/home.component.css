@@ -33,6 +33,7 @@ h3 {
 }
 
 
+
 #phoneform {
   float: right;
   /* border-style: solid;
@@ -57,6 +58,17 @@ h3 {
 
 #3clients {
   float: left;
+}
+
+#feature3 .img-fluid {
+  size: 100%;
+}
+  #feature3 .card-deck .card {
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+  }
+
+#jumbo {
+  color: white;
 }
 
 #industries .img-fluid {
@@ -111,24 +123,12 @@ h3 {
   }
 
   .spacer {
-    height: 10px;
+    height: 200px;
   }
 
   #advantagelist {
-    position: right;
-    padding-top: 15px;
-    margin-left: 0px;
+    margin-left: 50px;
     box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
   }
 
 
-#feature3 .img-fluid {
-  size: 100%;
-}
-  #feature3 .card-deck .card {
-    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
-  }
-
-#jumbo {
-  color: white;
-}
