@@ -15,6 +15,10 @@ import { StoreModule } from '@ngrx/store'
 // App Routing Module
 import { AppRoutingModule } from './app-routing.module';
 
+
+// Forms Module
+import { FormsModule, ReactiveFormsModule } from '@angular/forms'
+
 // Routing Gurads
 // import { GuardsModule } from './guards/guards.module';
 import { AdminGuard } from './admin.guard';
@@ -74,7 +78,9 @@ import { AppComponent } from './app.component';
     // GuardsModule,
     // App Routing Module
     AppRoutingModule,
-    NileWebModule
+    NileWebModule,
+    FormsModule,
+    ReactiveFormsModule
   ],
   providers: [
     AdminGuard
